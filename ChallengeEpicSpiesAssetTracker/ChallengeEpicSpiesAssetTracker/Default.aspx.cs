@@ -39,7 +39,7 @@ namespace ChallengeEpicSpiesAssetTracker
             elections[elections.GetUpperBound(0)] = double.Parse(electionsTextBox.Text);
             acts[acts.GetUpperBound(0)] = double.Parse(actsSubterfugeTextBox.Text);
 
-            //To store new data to VewState
+            //To overwrite ViewState
             ViewState["Assets"] = assets;
             ViewState["Elections"] = elections;
             ViewState["Acts"] = acts;
